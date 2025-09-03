@@ -30,7 +30,7 @@ type TError = {
 };
 
 const main = {
-  provider: 'strapi-provider-mailersend',
+  provider: 'strapi-provider-email-mailersend',
   name: 'MailerSend Provider',
   init(providerOptions: TProviderOptions, settings: TSettings) {
     // Assert the providerOptions are valid
